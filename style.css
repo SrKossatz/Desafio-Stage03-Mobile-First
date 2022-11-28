@@ -6,11 +6,13 @@
 
 :root{
     font-size: 62.5%;
+    --bg-color: hsl(233, 100%, 97%);
+    
 }
 
 body{
     font-family: 'Palanquin', sans-serif;
-    background: hsla(233, 100%, 97%, 1);
+    background: var(--bg-color)
 }
 
 #logo{
