@@ -15,7 +15,9 @@ body {
 }
 
 #logo {
-  padding: 3.2rem 0;
+  padding: 1rem 0;
+  width: 300px;
+  
 }
 
 h1 {
@@ -51,7 +53,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5rem 3.2rem 6rem;
+  padding: 1.5rem 2rem 6rem;
 }
 
 .text {
@@ -168,7 +170,7 @@ footer a:hover {
     display: flex;
   }
   header{
-    width: 37.7rem;
+    min-width: 250px;
     height: 100vh;
     position: fixed;
     display: flex;
